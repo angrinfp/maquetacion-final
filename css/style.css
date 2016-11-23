@@ -1,5 +1,4 @@
 footer {
-  background: #23232d;
   color: #fff; }
   footer .container {
     padding: 0px; }
@@ -19,6 +18,9 @@ footer {
     padding-top: 11px;
     color: #9797b8;
     padding-bottom: 100px; }
+    footer .structure_footer_more a {
+      color: #9797b8;
+      text-decoration: none; }
   footer .fa-long-arrow-right {
     padding-left: 10px; }
   footer .structure_footer_menu {
@@ -30,10 +32,38 @@ footer {
       footer .structure_footer_menu li a {
         color: #d0d0f0;
         text-decoration: none; }
+  footer .structure_footer {
+    padding-left: 100px;
+    padding-right: 0px; }
 
-@media screen and (max-width: 1199px) {
-  .footer-center {
-    text-align: center; } }
+@media screen and (max-width: 991px) {
+  footer .structure_footer_more {
+    padding-bottom: 50px; }
+
+  footer .container {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+  footer .structure_footer {
+    padding-left: 0px; } }
+.style_title_city {
+  letter-spacing: 1.3px;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
+
+.style_address_city {
+  letter-spacing: 0.3px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  word-spacing: 0.5px; }
+
+.style_address_mail {
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  word-spacing: 0.5px; }
+
 .style_name_zeal {
   font-family: 'Raleway', sans-serif;
   font-size: 21px;
@@ -56,10 +86,9 @@ footer {
   letter-spacing: 0.48px;
   line-height: 1.53; }
 
-.color2 {
-  padding-left: 100px;
-  padding-right: 0px; }
-
+@media screen and (max-width: 991px) {
+  .style_summary_news {
+    font-size: 14px; } }
 header {
   height: 425px;
   background: #216687; }
@@ -72,8 +101,37 @@ header {
   height: 400px;
   background: #f7f393; }
 
-.direcciones {
-  height: 400px;
-  background: #c24e21; }
+footer {
+  background: #23232d; }
+
+.address_zeal_city {
+  background: #f7f7f7; }
+
+.structure_section_address {
+  padding-top: 115px; }
+  .structure_section_address .container {
+    padding: 0px; }
+  .structure_section_address .structure_title_city {
+    color: #b8b8c0;
+    margin: 0px; }
+  .structure_section_address .structure_title_zeal {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 43px; }
+  .structure_section_address .structure_address_city {
+    word-wrap: break-word;
+    width: 240px;
+    margin: 0px;
+    padding-bottom: 13px; }
+  .structure_section_address .structure_address_mail {
+    color: #5a5a8c;
+    text-decoration: underline;
+    padding-bottom: 85px; }
+
+@media screen and (max-width: 991px) {
+  .address_zeal_city .container {
+    padding-left: 25px;
+    padding-right: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
