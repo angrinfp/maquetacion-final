@@ -89,17 +89,111 @@ footer {
 @media screen and (max-width: 991px) {
   .style_summary_news {
     font-size: 14px; } }
-header {
-  height: 425px;
-  background: #216687; }
+.header {
+  background: #5a5a8c;
+  width: 100%;
+  height: 550px;
+  color: #ffffff; }
 
-.cuerpo {
-  height: 850px;
-  background: #12c43c; }
+.collapse ul li a {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 1em; }
 
-.mapa {
-  height: 400px;
-  background: #f7f393; }
+.collapse ul li a:hover {
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #fff; }
+
+.navbar-collapse {
+  width: 100%;
+  text-align: center;
+  color: white; }
+
+.navbar-collapse .nav li a {
+  color: white; }
+
+.box-shadow-menu {
+  position: relative;
+  margin-top: 20px;
+  padding: 15px 18px;
+  border: 2px solid #333;
+  background: transparent; }
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  margin: 1px 3px 3px 3px;
+  left: 3px;
+  top: 10px;
+  width: 1.5em;
+  height: 0.15em;
+  background: #fff;
+  box-shadow: 0 0.25em 0 0 #fff, 0 0.5em 0 0 #fff; }
+
+@media (min-width: 768px) {
+  .box-shadow-menu {
+    display: none; } }
+@media (max-width: 768px) {
+  .right {
+    display: none; } }
+.slide {
+  padding-top: 20px; }
+
+.altas {
+  font-size: 3.5em; }
+
+.bajas {
+  font-size: 1.5em;
+  font-weight: 300; }
+
+button {
+  background: #5a5a8c;
+  color: #ffffff;
+  border: #5a5a8c solid 1px;
+  padding: 5px 10px; }
+
+button:hover {
+  border: #ffffff solid 1px; }
+
+.text {
+  margin-top: 100px; }
+
+.quality {
+  margin-top: 120px; }
+
+h5 {
+  font-weight: 700;
+  color: #b3b3bc; }
+
+.info {
+  padding-top: 30px;
+  font-size: 1.5em;
+  color: #b3b3bc; }
+
+.info-l {
+  padding-top: 30px;
+  font-size: 1.2em;
+  color: #b3b3bc; }
+
+a {
+  color: #5a5a8c; }
+
+.slider {
+  margin-top: 60px; }
+
+#carousel-1 {
+  display: flex; }
+
+.slide-left {
+  float: right; }
+
+.slide-right {
+  float: right; }
+
+.carousel-indicators li {
+  background: #5a5a8c;
+  border: 1px solid #5a5a8c; }
 
 footer {
   background: #23232d; }
