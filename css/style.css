@@ -46,6 +46,28 @@ footer {
 
   footer .structure_footer {
     padding-left: 0px; } }
+.style_basic {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif; }
+
+.style_number_phone {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.9px;
+  font-weight: 300; }
+
+.style_paragraph_help {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  line-height: 1.6; }
+
+.style_title_h2 {
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
 .style_title_city {
   letter-spacing: 1.3px;
   font-size: 12px;
@@ -93,10 +115,6 @@ header {
   height: 425px;
   background: #216687; }
 
-.cuerpo {
-  height: 850px;
-  background: #12c43c; }
-
 .mapa {
   height: 400px;
   background: #f7f393; }
@@ -108,7 +126,7 @@ footer {
   background: #f7f7f7; }
 
 .structure_section_address {
-  padding-top: 115px; }
+  padding-top: 113px; }
   .structure_section_address .container {
     padding: 0px; }
   .structure_section_address .structure_title_city {
@@ -118,7 +136,9 @@ footer {
     margin: 0px;
     font-weight: 500;
     line-height: 1;
-    padding-bottom: 43px; }
+    padding-top: 2px;
+    padding-bottom: 42px;
+    color: #5a5a8c; }
   .structure_section_address .structure_address_city {
     word-wrap: break-word;
     width: 240px;
@@ -130,8 +150,40 @@ footer {
     padding-bottom: 85px; }
 
 @media screen and (max-width: 991px) {
-  .address_zeal_city .container {
+  .structure_section_address .container {
     padding-left: 25px;
     padding-right: 25px; } }
+.structure_section_glad_to_help .container {
+  padding: 0px; }
+.structure_section_glad_to_help .structure_paragraph_help {
+  margin: 0px;
+  padding-top: 159px;
+  padding-bottom: 12px; }
+.structure_section_glad_to_help .structure_title_city {
+  padding-top: 110px;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  color: #b3b3bc; }
+.structure_section_glad_to_help .structure_address_personal {
+  text-decoration: underline;
+  font-size: 13px;
+  letter-spacing: 1.3px; }
+  .structure_section_glad_to_help .structure_address_personal a {
+    color: #93939b; }
+.structure_section_glad_to_help .structure_number_phone {
+  padding-top: 8px; }
+.structure_section_glad_to_help .structure_section {
+  padding-top: 43px;
+  margin: 0px;
+  padding-bottom: 16px; }
+.structure_section_glad_to_help .structure_title_name {
+  color: #5a5a8c;
+  margin: 0px;
+  padding-bottom: 7px;
+  padding-top: 23px;
+  font-weight: 600; }
+.structure_section_glad_to_help .style_title_h2 {
+  color: #5a5a8c;
+  margin: 0px; }
 
 /*# sourceMappingURL=style.css.map */

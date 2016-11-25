@@ -1,6 +1,6 @@
 .structure_section_address{
     
-    padding-top:115px;
+    padding-top:113px;
     
     .container{
         padding:0px;
@@ -15,7 +15,9 @@
         margin:0px;
         font-weight:500;
         line-height:1;
-        padding-bottom:43px;
+        padding-top:2px;
+        padding-bottom:42px;
+        color:#5a5a8c;
     }
     
      .structure_address_city{
@@ -28,21 +30,15 @@
     .structure_address_mail{
         color:#5a5a8c;
         text-decoration: underline;
-         padding-bottom:85px;
+        padding-bottom:85px;
     }
     
     
 }
 
-
-
 @media screen and (max-width: 991px){
-    
-
-    .address_zeal_city .container{
+    .structure_section_address .container{
         padding-left:25px;
         padding-right:25px;
     }
-    
-
 }
