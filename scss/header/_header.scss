@@ -1,14 +1,127 @@
+$fb: #5a5a8c;
+$tw: #ffffff;
+$gw: #b3b3bc;
+$w: 100%;
 
 
-header{
-    height:425px;
-    background:#216687;
+@mixin height($height) {
+	height:$height;
+}
+
+@mixin font-size($font) {
+	font-size:$font;
 }
 
 
-
-.mapa{
-    height:400px;
-    background:#f7f393;
+.header {
+	background: $fb;
+	width: $w;
+	@include height(550px);
+	color: $tw;
 }
+
+.collapse ul li a {
+	padding-top: 40px;	
+	color: $tw;
+	font-size: 1em;
+}
+
+.collapse ul li a:hover {
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-collapse {
+  	width: 100%;
+  	text-align: center;
+  	color: white; }
+
+ .navbar-collapse .nav li a {
+   	color: white; 
+}
+
+.box-shadow-menu {
+  	position: relative;
+  	margin-top:20px;
+  	padding: 15px 18px;
+  	border: 2px solid #333;
+  	background: transparent; 
+ }
+
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    margin: 1px 3px 3px 3px;
+    left: 3px;
+    top: 10px;
+    width: 1.5em;
+    height: 0.15em;
+    background: #fff;
+    box-shadow: 0 0.25em 0 0 #fff, 0 0.5em 0 0 #fff;
+}
+
+@media (min-width: 768px) {
+    .box-shadow-menu {
+    display: none; } }
+
+@media (max-width: 768px) {
+    .right {
+    display: none; } }
+
+
+.slide {
+  padding-top: 20px;
+}
+
+
+.altas {
+    @include font-size(3.5em);
+}
+
+.bajas {
+    @include font-size(1.5em);
+    font-weight: 300;
+  }
+
+button {
+  background: $fb;
+  color: $tw;
+  border: $fb solid 1px;
+  padding:5px 10px;
+}
+
+button:hover {
+    border: $tw solid 1px;
+}
+
+.text {
+  margin-top: 100px;
+}
+
+.quality {
+    margin-top:120px;
+}
+
+h5 {
+  font-weight: 700;
+  color:$gw;
+}
+
+.info {
+  padding-top: 30px;
+  font-size: 1.5em;
+  color: $gw;
+}
+
+.info-l {
+  padding-top: 30px;
+  font-size: 1.2em;
+  color: $gw;
+}
+
+a {
+  color: $fb;
+}
+
 
