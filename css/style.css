@@ -202,6 +202,17 @@ h5 {
 a {
   color: #5a5a8c; }
 
+.banner {
+  background: #f7f7f7;
+  padding: 50px 0; }
+
+h2 {
+  color: #5a5a8c; }
+
+.banner p {
+  font-size: 16px;
+  margin-top: 25px; }
+
 footer {
   background: #23232d; }
 
@@ -269,14 +280,25 @@ footer {
   color: #5a5a8c;
   margin: 0px; }
 
-.banner {
-  background: #f7f7f7;
-  padding: 20px; }
+p {
+  color: #777;
+  font-family: 'Raleway', sans-serif; }
 
-h2 {
+.team {
+  padding: 80px 0;
+  background: #ffffff; }
+
+.team-member {
+  margin-bottom: 50px; }
+
+.team-member h4 {
+  margin: 0;
   color: #5a5a8c; }
 
-p {
-  color: #777; }
+.member-info {
+  padding: 20px 0; }
+
+.team-member img {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
