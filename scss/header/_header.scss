@@ -14,7 +14,7 @@ $w: 100%;
 
 
 .header {
-	background: $fb;
+	background: transparent;
 	width: $w;
 	@include height(550px);
 	color: $tw;
