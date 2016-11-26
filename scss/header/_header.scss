@@ -12,11 +12,12 @@ $w: 100%;
 	font-size:$font;
 }
 
+body {
+  padding-top: 70px;
+}
 
-.header {
-	background: transparent;
-	width: $w;
-	@include height(550px);
+.navbar {
+	background: $fb;
 	color: $tw;
 }
 

@@ -111,10 +111,11 @@ footer {
 @media screen and (max-width: 991px) {
   .style_summary_news {
     font-size: 14px; } }
-.header {
-  background: transparent;
-  width: 100%;
-  height: 550px;
+body {
+  padding-top: 70px; }
+
+.navbar {
+  background: #5a5a8c;
   color: #ffffff; }
 
 .collapse ul li a {
@@ -267,5 +268,15 @@ footer {
 .structure_section_glad_to_help .style_title_h2 {
   color: #5a5a8c;
   margin: 0px; }
+
+.banner {
+  background: #f7f7f7;
+  padding: 20px; }
+
+h2 {
+  color: #5a5a8c; }
+
+p {
+  color: #777; }
 
 /*# sourceMappingURL=style.css.map */
