@@ -179,22 +179,6 @@ h5 {
 a {
   color: #5a5a8c; }
 
-.slider {
-  margin-top: 60px; }
-
-#carousel-1 {
-  display: flex; }
-
-.slide-left {
-  float: right; }
-
-.slide-right {
-  float: right; }
-
-.carousel-indicators li {
-  background: #5a5a8c;
-  border: 1px solid #5a5a8c; }
-
 footer {
   background: #23232d; }
 
