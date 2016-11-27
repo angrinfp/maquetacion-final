@@ -407,14 +407,66 @@ footer {
   color: #5a5a8c;
   margin: 0px; }
 
-.banner {
-  background: #f7f7f7;
-  padding: 20px; }
+p {
+  color: #777;
+  font-family: 'Raleway', sans-serif; }
 
-h2 {
+.team {
+  padding: 80px 0;
+  background: #ffffff; }
+
+.team-member {
+  margin-bottom: 50px; }
+
+.team-member h4 {
+  margin: 0;
   color: #5a5a8c; }
 
-p {
-  color: #777; }
+.member-info {
+  padding: 20px 0; }
+
+.team-member img {
+  width: 100%; }
+
+.project {
+  width: 100%;
+  padding: 0;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px; }
+
+.project img {
+  width: 100%; }
+
+.project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 80px;
+  display: table; }
+
+.project-info h3,
+.project-info p {
+  color: #ffffff; }
+
+.project-info h3 {
+  margin: 0; }
+
+.project-info p {
+  margin-top: 20px; }
+
+.project-info span {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 12px; }
+
+.pinfo {
+  display: table-cell;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */

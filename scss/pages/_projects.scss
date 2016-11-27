@@ -1,0 +1,52 @@
+.project {
+    width: 100%;
+    padding: 0;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 500px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 80px;
+    display: table;
+}
+
+.project-info h3,
+.project-info p {
+    color: $tw;
+}
+
+.project-info h3 {
+    margin: 0;
+}
+
+.project-info p {
+    margin-top: 20px;
+}
+
+.project-info span {
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pinfo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media(max-width: 1116px) {
+    
+}
