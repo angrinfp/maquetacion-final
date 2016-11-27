@@ -112,7 +112,11 @@ footer {
   .style_summary_news {
     font-size: 14px; } }
 body {
-  padding-top: 70px; }
+  font-family: 'Raleway', sans-serif; }
+
+.header {
+  background: #5a5a8c;
+  padding-top: 20px; }
 
 .navbar {
   background: #5a5a8c;
@@ -120,7 +124,6 @@ body {
 
 .collapse ul li a {
   padding-top: 40px;
-  color: #ffffff;
   font-size: 1em; }
 
 .collapse ul li a:hover {
@@ -138,7 +141,7 @@ body {
 
 .box-shadow-menu {
   position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 15px 18px;
   border: 2px solid #333;
   background: transparent; }
@@ -152,7 +155,7 @@ body {
   width: 1.5em;
   height: 0.15em;
   background: #fff;
-  box-shadow: 0 0.25em 0 0 #fff, 0 0.5em 0 0 #fff; }
+  box-shadow: 0 0.25em 0 0 #fff; }
 
 @media (min-width: 768px) {
   .box-shadow-menu {
@@ -160,47 +163,182 @@ body {
 @media (max-width: 768px) {
   .right {
     display: none; } }
-.slide {
-  padding-top: 20px; }
+@media (max-width: 768px) {
+  .altas {
+    font-size: 1.5em; } }
+@media (max-width: 768px) {
+  .slider {
+    height: 600px; } }
+.slider {
+  padding-top: 60px;
+  margin-top: -20px;
+  height: 500px;
+  background: #5a5a8c;
+  color: #ffffff; }
 
 .altas {
-  font-size: 3.5em; }
+  font-size: 3.5em;
+  color: #ffffff; }
 
 .bajas {
   font-size: 1.5em;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #ffffff; }
 
 button {
   background: #5a5a8c;
   color: #ffffff;
   border: #5a5a8c solid 1px;
-  padding: 5px 10px; }
+  padding: 10px 15px;
+  font-size: 0.8em; }
 
 button:hover {
-  border: #ffffff solid 1px; }
+  border: #ffffff solid 1px;
+  font-size: 0.8em; }
 
-.text {
-  margin-top: 100px; }
+.litle {
+  margin-top: 80px; }
 
 .quality {
-  margin-top: 120px; }
+  margin-top: 140px; }
 
 h5 {
   font-weight: 700;
   color: #b3b3bc; }
 
+h6 {
+  font-weight: 600;
+  color: #b3b3bc; }
+
 .info {
   padding-top: 30px;
-  font-size: 1.5em;
-  color: #b3b3bc; }
+  font-size: 1.3em;
+  color: #b3b3bc;
+  line-height: 2;
+  letter-spacing: 0.1em; }
 
 .info-l {
   padding-top: 30px;
-  font-size: 1.2em;
-  color: #b3b3bc; }
+  font-size: 1.1em;
+  color: #b3b3bc;
+  line-height: 1.5; }
 
-a {
+.view-more {
+  color: #5a5a8c;
+  font-weight: 700; }
+
+.webs {
+  height: 450px;
+  margin-top: 80px;
+  background: linear-gradient(to bottom, white 0%, white 30%, #ffffff 30%, #f8f8f8 30%, #f8f8f8 100%); }
+
+.bolita {
+  border: 1px solid #5a5a8c;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 160px; }
+
+.bolita:active {
+  background: #5a5a8c; }
+
+.indicadores {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+.about {
+  color: #82828c;
+  margin-left: 20px; }
+
+.autor {
+  margin-left: 20px;
   color: #5a5a8c; }
+
+.autor:before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background: #5a5a8c;
+  margin: 5px; }
+
+.pricing {
+  margin-top: 50px;
+  height: 400px;
+  background: linear-gradient(to bottom, white 0%, white 65%, #ffffff 65%, #f8f8f8 65%, #f8f8f8 100%); }
+
+.precio {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #5a5a8c; }
+
+.precio:before {
+  content: "$";
+  font-size: 14px;
+  font-weight: 500; }
+
+.precio:after {
+  content: "/MONTH";
+  font-size: 14px;
+  font-weight: 500; }
+
+.detail {
+  line-height: 2;
+  color: #82828c;
+  margin-top: 20px; }
+
+.btn {
+  border-radius: 0px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #5a5a8c;
+  background: #ffffff;
+  color: #5a5a8c;
+  font-weight: 500;
+  margin-top: 20px; }
+
+.thumbnail {
+  border: none; }
+
+.btn:hover {
+  background: #5a5a8c; }
+
+.pricing-in {
+  padding-top: 50px; }
+
+.pricing-fondo {
+  background: #ffffff;
+  width: 25%;
+  height: 350px;
+  padding-top: 10px;
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(143, 140, 143, 0.48);
+  -moz-box-shadow: 2px 3px 3px 0px rgba(143, 140, 143, 0.48);
+  box-shadow: 2px 0px 1px 0px rgba(143, 140, 143, 0.48); }
+
+.toggle-button {
+  display: none; }
+  .toggle-button + label {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 34px;
+    background: #b3b3bc;
+    border-radius: 20px; }
+    .toggle-button + label:before {
+      display: block;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: #ffffff;
+      border-radius: 50%;
+      position: relative; }
+  .toggle-button:checked + label {
+    background: #b3b3bc; }
+    .toggle-button:checked + label:before {
+      left: 30px;
+      background: #ffffff; }
 
 footer {
   background: #23232d; }

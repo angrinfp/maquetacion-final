@@ -4,9 +4,12 @@
 	<title>Zeal</title>
 	<link rel="stylesheet" href="./css/bootstrap.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width" />
 </head>
 <body>
-<div class="header fluid-container">
+<div class="header">
 	<div  class="navbar">
 		<div class="container">
 			<div class="navbar-brand">
@@ -31,9 +34,11 @@
 
 		</div>
 	</div>
+</div>
 
-	<div class="container">	
-		<div class="row slide">
+<div class="slider">
+	<div class="container">
+		<div class="row">
 			<div class="left col-lg-7 col-md-7 col-sm-12 col-xs-12">
 				<br>
 				<br>
@@ -46,15 +51,13 @@
 				<br>
 				<button>VIEW DEMO</button>
 				<button>JOIN FOR UPDATES</button>
-
-				<div class="text">
-					<span style="color:#b3b3bc; font-weight:400"	>FROM THE BLOG</span>
-					<p style="color:#5a5a8c">Award winning the best design of the year 2016.</p>
-				</div>	
-
+				<div class="litle">
+					<span style="color:#b3b3bc; font-weight:400; font-size:1.2em;">FROM THE BLOG</span>
+					<p style="color:#5a5a8c; font-size:1.2em;">Award winning the best design of the year 2016.</p>
+				</div>
 			</div>
 			<div class="right col-lg-5 col-md-5 col-sm-12 col-xs-12">
-				<img src="./img/macbook.png" width="800" height="469">				
+				<img src="./img/macbook.png" width="839" height="530">				
 			</div>
 		</div>
 	</div>
@@ -69,22 +72,21 @@
 			<p class="altas" style="color:#5a5a8c">Quality Work</p>
 		</div>
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-			<p class="info">A Web services is a service offered by an electronic device to another<br>electronic device, communicating with each other via the World Wide Web.</p>
+			<p class="info">A Web services is a service offered by an electronic device to another<br>electronic device, communicating with each other via the World<br> Wide Web.</p>
 
 			<p class="info-l">In a Web service, Web technology such as HTTP, originally designed for human-top-machine <br>communication, is utilized for machine-to-machine communication, more specifically for<br> trasnferring machine readable file formats.</p>
-			<a herf="#">+ VIEW MORE</a>
+			<a herf="#" class="view-more">+ VIEW MORE</a>
 					
 		</div>
 	</div>	
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="slider col-lg-12 col-md-12 col-sm-12 colo-xs-12">
-			<div class="slider">
-				<div id="carousel-1" class="carousel slide" data-ride="carousel">
-					
-					<div class="carousel-inner slide-left" role="listbox">
+<div class="webs">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div id="carousel-w" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
 						<div class="item active">
 							<img src="./img/slide1.jpg" class="img-responsive">
 						</div>
@@ -95,29 +97,118 @@
 							<img src="./img/slide3.jpg" class="img-responsive">
 						</div>
 					</div>
-
-					<div class="slide-right indi">
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-1" data-slide-to="0" class="active">
-							</li>
-
-							<li data-target="#carousel-1" data-slide-to="1">
-							</li>
-
-							<li data-target="#carousel-1" data-slide-to="2">
-							</li>			
-						</ol>
+				</div>		
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div class="indicadores">
+					
+					<div class="bolita active" data-target="#carousel-w" data-slide-to="0">
+					
 					</div>
+				
+					<div class="bolita" data-target="#carousel-w" data-slide-to="1">
+					
+					</div>
+				
+					<div class="bolita" data-target="#carousel-w" data-slide-to="2">
+					
+					</div>			
 				</div>
-			</div>			
+				
+				<p class="about">
+					"Design management is business discipline<br>
+					that uses project mangement design<br>
+					strategy and supply chain techniques to<br>
+					control a process, support the culture of<br>
+					creativity and buld all the structure and<br>
+					organization for design."
+				</p><br>
+				
+				<p class="autor">
+					<span style="font-weight:700">Stephen Hill<br></span>
+					<span style="margin-left:40px"></span>CEO & Founder</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pricing">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pricing-in">
+				<h6>COST EFECTIVE</h6>
+				<p class="altas" style="color:#5a5a8c">Pricing</p>
+				<p class="detail">
+        			30 Days Free Trial <br>
+        			No Hidden Condition <br>
+        			Secure Transaction <br>
+        		</p>
+        		
+  				<input type="checkbox" id="toggle" class="toggle-button">
+  				<label for="toggle">
+				</label>
+        		
+			</div>
+			
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pricing-fondo">
+				<div class="thumbnail">
+	      			
+	      			<div class="caption">
+	        		<h6>BASIC</h6>
+	        		<p class="precio">35</p>
+	        		<p class="detail">
+	        				50 gb Disk Space <br>
+	        				50 Domain Name <br>
+	        				Site Builders <br>
+	        				Fully Support <br>
+	        		</p>
+	        		<p><a href="#" class="btn btn-primary" role="button">ADD TO CART</a></p>
+	      			</div>
+	      		</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pricing-fondo">
+				<div class="thumbnail">
+	      				
+	      			<div class="caption">
+	        		<h6>STANDAR</h6>
+	        		<p class="precio">55</p>
+	        		<p class="detail">
+	        				80 gb Disk Space <br>
+	        				50 Domain Name <br>
+	        				SEO Optimized <br>
+	        				Fully Support <br>
+	        		</p>
+	        		<p><a href="#" class="btn btn-primary" role="button">ADD TO CART</a></p>
+	      			</div>
+	      		</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pricing-fondo">
+				<div class="thumbnail">
+	      			
+	      			<div class="caption">
+	        		<h6>ADVANCES</h6>
+	        		<p class="precio">95</p>
+	        		<p class="detail">
+	        				100 gb Disk Space <br>
+	        				80 Domain Name <br>
+	        				SEO Optimized <br>
+	        				Fully Support <br>
+	        		</p>
+	        		<p><a href="#" class="btn btn-primary" role="button">ADD TO CART</a></p>
+	      			</div>
+	      		</div>
+			</div>
 		</div>
 	</div>
 </div>
 
 
-	<script src="./js/jquery-3.1.1.min.js"></script>
+
+	<script src="./js/scripts.js"></script>
+	<script src="./js/jquery-1.11.3.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
 </body>
 </html>
