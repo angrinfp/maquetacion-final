@@ -23,20 +23,37 @@
     display: table;
 }
 
+.project-info2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 500px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 80px;
+    display: table;
+}
+
 .project-info h3,
-.project-info p {
+.project-info2 h3,
+.project-info p,
+.project-info2 p {
     color: $tw;
 }
 
-.project-info h3 {
+.project-info h3,
+.project-info2 h3 {
     margin: 0;
 }
 
-.project-info p {
+.project-info p,
+.project-info2 p {
     margin-top: 20px;
 }
 
-.project-info span {
+.project-info span,
+.project-info2 span {
     color: rgba(255,255,255,0.5);
     text-transform: uppercase;
     font-size: 12px;
@@ -47,6 +64,7 @@
     vertical-align: middle;
 }
 
-@media(max-width: 1116px) {
-    
+.page {
+    text-align: center;
+    margin: 20px 0 40px 0;
 }
