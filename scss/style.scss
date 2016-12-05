@@ -1,6 +1,16 @@
-@import "footer/_footer";
-@import "fonts/_font";
 @import "header/_header";
+@import "header/_menu";
+
+
+@import "fonts/_font";
+@import "sections/_section_google_maps";
+@import "sections/_section_services_accurate_reliable";
+@import "sections/_section_range_of_work";
+
+
+
+@import "footer/_footer";
+
 @import "background/_background";
 @import "sections/_section_address_city_zeal";
 @import "sections/_section_get_in_touch_zeal";

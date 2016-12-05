@@ -1,28 +1,55 @@
-$fb: #5a5a8c;
-$tw: #ffffff;
-$gw: #b3b3bc;
-$w: 100%;
-
-
-@mixin height($height) {
-	height:$height;
+header{
+  
+  .structure_banner_h2{
+    padding-top:65px;
+    padding-bottom:33px;
+    color:#5a5a8c;
+  }
+  
+  .structure_banner_description_h2{
+    width:730px;
+    word-wrap:break-word;
+    line-height:1.57;
+    padding-bottom:73px;
+  }
+  
+  
 }
 
-@mixin font-size($font) {
-	font-size:$font;
+
+
+
+
+
+
+
+
+
+
+
+
+.header_background_contact_us{
+  background:#f7f7f7;
 }
 
 
-.header {
-	background: $fb;
-	width: $w;
-	@include height(550px);
-	color: $tw;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .collapse ul li a {
 	padding-top: 40px;	
-	color: $tw;
+
 	font-size: 1em;
 }
 
@@ -75,24 +102,22 @@ $w: 100%;
 }
 
 
-.altas {
-    @include font-size(3.5em);
-}
+
 
 .bajas {
-    @include font-size(1.5em);
+
     font-weight: 300;
   }
 
 button {
-  background: $fb;
-  color: $tw;
-  border: $fb solid 1px;
+
+
+
   padding:5px 10px;
 }
 
 button:hover {
-    border: $tw solid 1px;
+
 }
 
 .text {
@@ -105,23 +130,23 @@ button:hover {
 
 h5 {
   font-weight: 700;
-  color:$gw;
+
 }
 
 .info {
   padding-top: 30px;
   font-size: 1.5em;
-  color: $gw;
+
 }
 
 .info-l {
   padding-top: 30px;
   font-size: 1.2em;
-  color: $gw;
+
 }
 
 a {
-  color: $fb;
+
 }
 
 
