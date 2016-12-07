@@ -1,12 +1,15 @@
 .structure_section_glad_to_help{
     
+    padding-bottom:174px;
+    
     .container{
         padding:0px;
     }
     .structure_paragraph_help{
-        margin:0px;
-        padding-top:159px;
+        padding-top:160px;
         padding-bottom:12px;
+        margin:0px;
+     
     }
     
     .structure_title_city{
@@ -41,11 +44,20 @@
         margin:0px;
         padding-bottom:7px;
         padding-top:23px;
-        font-weight:600;
+        font-weight:700;
+        letter-spacing:1.5px;
     }
     
     .style_title_h2{
         color:#5a5a8c;
         margin:0px;
+    }
+    
+    .structure_question{
+        padding-right:0px;
+    }
+    
+    .structure_form_text{
+        padding-top:23.3px;
     }
 }
