@@ -68,3 +68,27 @@
     text-align: center;
     margin: 20px 0 40px 0;
 }
+
+@media(max-width: 1118px) {
+    .project-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        text-align: center;
+        padding: 80px;
+        display: table;
+    }
+    
+    .project-info2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        text-align: center;
+        padding: 80px;
+        display: table;
+    }
+}
