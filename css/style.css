@@ -8,14 +8,11 @@ header .structure_banner_description_h2 {
   line-height: 1.57;
   padding-bottom: 73px; }
 
-<<<<<<< HEAD
-.header_background_contact_us {
-  background: #f7f7f7; }
-=======
 @media screen and (max-width: 991px) {
   .style_summary_news {
     font-size: 14px; } }
 body {
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif; }
 
 .header {
@@ -25,7 +22,6 @@ body {
 .navbar {
   background: #5a5a8c;
   color: #ffffff; }
->>>>>>> 9676e1255e3b4d9df1f148c57460082333b784d9
 
 .collapse ul li a {
   padding-top: 40px;
@@ -81,19 +77,10 @@ body {
   background: #5a5a8c;
   color: #ffffff; }
 
-<<<<<<< HEAD
-.bajas {
-  font-weight: 300; }
 
-button {
-  padding: 5px 10px; }
-
-.text {
-  margin-top: 100px; }
-=======
 .altas {
   font-size: 3.5em;
-  color: #ffffff; }
+  color: #f2f2f2; }
 
 .bajas {
   font-size: 1.5em;
@@ -113,7 +100,6 @@ button:hover {
 
 .litle {
   margin-top: 80px; }
->>>>>>> 9676e1255e3b4d9df1f148c57460082333b784d9
 
 .quality {
   margin-top: 140px; }
@@ -127,17 +113,7 @@ h6 {
 
 .info {
   padding-top: 30px;
-<<<<<<< HEAD
-  font-size: 1.5em; }
 
-.info-l {
-  padding-top: 30px;
-  font-size: 1.2em; }
-
-.header_background_contact_us h1 {
-  padding-top: 38px;
-  float: left;
-=======
   font-size: 1.3em;
   color: #b3b3bc;
   line-height: 2;
@@ -180,7 +156,7 @@ h6 {
 
 .autor {
   margin-left: 20px;
->>>>>>> 9676e1255e3b4d9df1f148c57460082333b784d9
+
   color: #5a5a8c; }
 .header_background_contact_us nav {
   float: right;
@@ -199,7 +175,6 @@ h6 {
   letter-spacing: 1.6px;
   font-weight: 800; }
 
-<<<<<<< HEAD
 .style_menu_zeal {
   font-size: 12px;
   font-family: 'Raleway', sans-serif;
@@ -353,7 +328,7 @@ h6 {
       line-height: 1.6; }
     .section_range_of_work .structure_service div {
       height: 175px; }
-=======
+
 .autor:before {
   content: "";
   display: inline-block;
@@ -449,7 +424,6 @@ h2 {
 .banner p {
   font-size: 16px;
   margin-top: 25px; }
->>>>>>> 9676e1255e3b4d9df1f148c57460082333b784d9
 
 footer {
   color: #fff; }
